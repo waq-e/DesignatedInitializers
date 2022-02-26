@@ -9,6 +9,7 @@ struct Parameters {
 void useParameters(Parameters p) {}
 
 int main() {
-    useParameters(Parameters{i: 3, d:4.5});
+    useParameters({i: 3, d:4.5});
+
     return 0;
 }
